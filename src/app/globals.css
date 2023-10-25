@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  .clip-your-needful-style {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  }
+
+  .clip-wrapper{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+  }
+
+  .clip-project{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
+  }
+
+  .bg-grad{
+    background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  }  
+
+  .bg-project{
+    background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
+  }
+
+  .span-bg{
+    background-color: rgba(133, 76, 230, 0.082);
+  }
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+
+
+body {
+  padding: 0;
+  margin: 0px !important;
+ 
+}
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+  background:#222A35;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575C66;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970;
+}
